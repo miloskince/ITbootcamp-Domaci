@@ -1,0 +1,123 @@
+body{
+    margin: 30px;
+    border: 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+header {
+    padding: 10px 100px;
+    box-sizing: border-box;
+    color: seashell;
+}
+section {
+    width: 100%;
+    height: 200vh;
+}
+section.sec1{
+    background: url("C:/Users/Seka/Desktop/ITbootcamp domaci/ITBootcamp-Domaci/Nedelja1/Portfolio/assets/images/stones.jpg") no-repeat;
+    background-size: cover;
+    color: seashell;
+    text-align: center;
+    font-size: larger;
+}
+#Naslov {
+   padding-top: 20px;
+}
+section.sec2{
+    padding: 100px;
+    height: auto;
+}
+section.sec2 h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    color: blanchedalmond;
+}
+section.sec2 p {
+    width: 80%;
+    text-align: left;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 10px;
+    color: blanchedalmond;
+}
+section.sec3 {
+    background: url("C:/Users/Seka/Desktop/ITbootcamp domaci/ITBootcamp-Domaci/Nedelja1/Portfolio/assets/images/stones.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 20px;
+    padding: 0 20px;
+    background: black;
+    color: blanchedalmond;
+    position: sticky;
+    top: 50px;
+}
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0 20px;
+    float: right;
+}
+nav ul li {
+    list-style: none; 
+}
+nav ul li a {
+    display: block;
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    background: silver;
+    opacity: .6;
+}
+div h1{
+    color: blanchedalmond;
+    opacity: .8;
+}
+#projekti{
+    padding: 0px;
+    text-align: center;
+    color: seashell;
+    font-size: 25px;
+}
+#projekti div {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 35px 35px 35px 35px;
+}
+#Kontakt {
+    text-align: right;
+    padding-right: 0px;
+    text-decoration-style: solid;
+    font-size: larger;
+    font-style: oblique;
+    text-shadow: black;
+    text-shadow: 3px 3px 5px seashell;
+    font-weight: bolder;
+}
+#Kontakt input{
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+::placeholder {
+    color: seashell;
+}
+
+.button{
+    display: inline-block;
+    padding-right: 0px;
+    border: none;
+    text-align: right;
+    font-size: 16px;
+}
