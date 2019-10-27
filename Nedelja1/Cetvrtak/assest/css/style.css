@@ -10,7 +10,7 @@ body {
     border: solid;
     border-radius: 15px;
     border-color: white;
-    background-image: url(C:/Users/Seka/Desktop/vezbanje/assest/Images/register.jpg);
+    background-image: url(../Images/register.jpg);
     background-repeat: repeat-x;
     background-size: 660px;
     text-align: right;
@@ -70,7 +70,7 @@ caption{
     border: 2px dotted rgb(158, 158, 158);
     border-radius: 13px;
     border-spacing: 15px;
-    background-image: url(C:/Users/Seka/Desktop/vezbanje/assest/Images/tabela.jpg);
+    background-image: url(../Images/tabela.jpg);
     background-size: 1400px;
     background-position-y: center;
     
@@ -90,7 +90,7 @@ caption{
     border: solid;
     border-radius: 15px;
     text-align: right;
-    background-image: url(C:/Users/Seka/Desktop/vezbanje/assest/Images/login.png);
+    background-image: url(../Images/login.png);
     background-size: 440px;
     font-weight: 33px;
     font-weight: bolder;
