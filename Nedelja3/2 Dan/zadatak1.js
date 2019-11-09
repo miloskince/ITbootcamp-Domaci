@@ -8,4 +8,4 @@ function max(a,b,c)
     if(a==c){return 'Brojevi "a" i "c" su maximum ali su iste vrednosi'};
     if(b==c){return 'Brojevi "b" i "c" su maximum ali su iste vrednosi'};
 }
-console.log(max(5,10,15));
+console.log(max(5,10,20));
