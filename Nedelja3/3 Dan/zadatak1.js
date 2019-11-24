@@ -1,5 +1,4 @@
 var nizDeljivSa=[1,2,3,4,5,10,15,23,1,5];
-
 function deljive(delioc)
 {   
     console.log(`Brojevi u nizu deljivi sa ${delioc} su:`);
