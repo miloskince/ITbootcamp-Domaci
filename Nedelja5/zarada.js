@@ -69,9 +69,6 @@ function Unesi(){
         prihodiContainer.appendChild(createDivOpis);
         prihodiContainer.appendChild(createDivIznos);
         prihodiContainer.appendChild(createElementBtn);
-
-        opisTxt = '';
-        iznosTxt = '';
     }
    
     //Pokusao sam da namestim procenat ali ne radi lepo nakon brisanja stavki iz prihoda ili rashoda
@@ -82,4 +79,6 @@ function Unesi(){
     container.innerHTML = counter;
     container.className = 'container';
     
+    opis.value = '';
+    iznos.value = '';
 }
